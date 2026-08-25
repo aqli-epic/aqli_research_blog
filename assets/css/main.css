@@ -19,10 +19,18 @@
   --shadow-small: 0 8px 24px rgba(31, 41, 51, 0.07);
   --radius: 4px;
   --shell: 1160px;
-  --font-display: Georgia, "Times New Roman", Times, serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-reading: Georgia, "Times New Roman", Times, serif;
-  --font-data: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 80px;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-sans);
+  --font-body: var(--font-sans);
+  --font-reading: var(--font-sans);
+  --font-data: var(--font-sans);
+  --font-code: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 *,
@@ -259,7 +267,7 @@ input {
   border-bottom: 1px solid var(--border);
   min-height: 0;
   overflow: hidden;
-  padding-block: 72px 58px;
+  padding-block: var(--space-6);
 }
 
 .hero__grid {
@@ -311,12 +319,12 @@ input {
 .article-hero h1 {
   color: var(--ink);
   font-family: var(--font-display);
-  font-size: 56px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.02;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   margin: 0;
-  max-width: 760px;
+  max-width: 18em;
 }
 
 .hero__lede {
@@ -368,11 +376,11 @@ input {
 }
 
 .section {
-  padding-block: 70px;
+  padding-block: var(--space-6);
 }
 
 .section--compact {
-  padding-block: 22px;
+  padding-block: var(--space-3);
 }
 
 .section--muted {
@@ -381,15 +389,15 @@ input {
 }
 
 .section-heading {
-  margin-bottom: 26px;
+  margin-bottom: var(--space-3);
 }
 
 .section-heading h2 {
   font-family: var(--font-display);
-  font-size: 38px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.08;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.18;
   margin: 0;
 }
 
@@ -488,9 +496,9 @@ input {
 .post-card h3,
 .workflow-card h3 {
   font-family: var(--font-display);
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -538,8 +546,8 @@ input {
 }
 
 .filter-box--wide {
-  margin-bottom: 24px;
-  max-width: 620px;
+  margin-bottom: var(--space-3);
+  max-width: none;
 }
 
 .filter-box label {
@@ -687,50 +695,108 @@ input {
 }
 
 .page-hero {
-  padding-bottom: 42px;
-  padding-top: 72px;
+  padding-bottom: var(--space-4);
+  padding-top: var(--space-6);
+}
+
+.page-hero h1 {
+  max-width: none;
 }
 
 .page-hero p:not(.eyebrow) {
   color: var(--ink-soft);
+  font-family: var(--font-body);
   font-size: 19px;
-  margin: 20px 0 0;
-  max-width: 700px;
+  line-height: 1.6;
+  margin: var(--space-3) 0 0;
+}
+
+.page-body {
+  padding-bottom: var(--space-7);
+}
+
+.page-body > *:first-child {
+  margin-top: 0;
 }
 
 .prose {
   color: var(--ink);
+  font-family: var(--font-body);
 }
 
 .prose > *:first-child {
   margin-top: 0;
 }
 
+.prose .prose > *:first-child {
+  margin-top: 0;
+}
+
+.prose .prose > *:last-child {
+  margin-bottom: 0;
+}
+
 .prose h2,
 .prose h3 {
   color: var(--ink);
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0;
-  line-height: 1.05;
+  line-height: 1.25;
 }
 
 .prose h2 {
-  font-size: 32px;
-  margin: 42px 0 12px;
+  font-size: 28px;
+  margin: var(--space-5) 0 var(--space-2);
+}
+
+.prose h2:first-child {
+  margin-top: 0;
 }
 
 .prose h3 {
-  font-size: 26px;
-  margin: 32px 0 10px;
+  font-size: 22px;
+  margin: var(--space-4) 0 var(--space-2);
 }
 
 .prose p,
 .prose li {
   color: var(--ink-soft);
-  font-family: var(--font-reading);
+  font-family: var(--font-body);
   font-size: 18px;
-  line-height: 1.72;
+  line-height: 1.7;
+}
+
+.prose p {
+  margin: 0 0 var(--space-3);
+  overflow-wrap: break-word;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 var(--space-3);
+  padding-left: 1.6em;
+}
+
+.prose li {
+  margin: 0 0 var(--space-2);
+  padding-left: 0.25em;
+}
+
+.prose li:last-child {
+  margin-bottom: 0;
+}
+
+.prose li > p {
+  margin: 0 0 8px;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose ul {
+  list-style-type: disc;
 }
 
 .prose a {
@@ -743,7 +809,7 @@ input {
   border: 1px solid var(--border);
   border-radius: 3px;
   color: var(--maroon);
-  font-family: var(--font-data);
+  font-family: var(--font-code);
   font-size: 0.92em;
   padding: 0.1em 0.32em;
 }
@@ -752,6 +818,7 @@ input {
   background: var(--ink);
   border-radius: var(--radius);
   color: #fff;
+  font-family: var(--font-code);
   overflow-x: auto;
   padding: 18px;
 }
@@ -766,7 +833,7 @@ input {
 .article-hero {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
-  padding-block: 64px;
+  padding-block: var(--space-6);
 }
 
 .article-hero__grid {
@@ -810,10 +877,10 @@ input {
 .article-body {
   align-items: start;
   display: grid;
-  gap: 48px;
+  gap: var(--space-5);
   grid-template-columns: 230px minmax(0, 760px);
-  padding-bottom: 84px;
-  padding-top: 58px;
+  padding-bottom: var(--space-7);
+  padding-top: var(--space-5);
 }
 
 .article-aside {
@@ -846,7 +913,7 @@ input {
   background: #fff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  margin: 32px 0;
+  margin: var(--space-4) 0;
   overflow: hidden;
 }
 
@@ -1039,7 +1106,7 @@ input {
   }
 
   .hero {
-    padding-block: 48px;
+    padding-block: var(--space-5);
   }
 
   .hero__content {
@@ -1060,7 +1127,7 @@ input {
   }
 
   .section {
-    padding-block: 54px;
+    padding-block: var(--space-5);
   }
 
   .section-heading h2 {
@@ -1094,12 +1161,22 @@ input {
   }
 
   .article-hero {
-    padding-block: 44px;
+    padding-block: var(--space-5);
   }
 
   .article-body {
-    gap: 28px;
-    padding-top: 38px;
+    gap: var(--space-3);
+    padding-bottom: var(--space-6);
+    padding-top: var(--space-4);
+  }
+
+  .page-hero {
+    padding-bottom: var(--space-3);
+    padding-top: var(--space-5);
+  }
+
+  .page-body {
+    padding-bottom: var(--space-6);
   }
 
   .file-link {
@@ -1245,8 +1322,8 @@ input {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  margin: 32px 0;
-  padding: 26px 26px 20px;
+  margin: var(--space-4) 0;
+  padding: var(--space-3) var(--space-3) 20px;
 }
 .data-figure > .eyebrow { margin-bottom: 18px; }
 
@@ -1286,7 +1363,7 @@ input {
    -------------------------------------------------------------------------- */
 
 .table-scroll {
-  margin: 32px 0;
+  margin: var(--space-4) 0;
   overflow-x: auto;
 }
 
@@ -1374,13 +1451,13 @@ td[data-pm="6"]::before { background: var(--pm-6); }
   border: 1px solid var(--border);
   border-left: 3px solid var(--maroon);
   border-radius: var(--radius);
-  margin: 32px 0;
-  padding: 22px 24px;
+  margin: var(--space-4) 0;
+  padding: var(--space-3);
 }
 .note p {
   color: var(--ink-soft) !important;
-  font-family: var(--font-data) !important;
-  font-size: 13px !important;
+  font-family: var(--font-body) !important;
+  font-size: 16px !important;
   line-height: 1.7 !important;
   margin: 0 !important;
 }
@@ -1388,11 +1465,16 @@ td[data-pm="6"]::before { background: var(--pm-6); }
 .note strong {
   color: var(--maroon);
   display: block;
-  font-family: var(--font-data);
-  font-size: 11px;
+  font-family: var(--font-body);
+  font-size: 13px;
   font-weight: 700;
   margin-bottom: 14px;
   text-transform: uppercase;
+}
+
+/* Keep the markdown in posts; do not show the editorial checklist on published stories. */
+.article-page .note {
+  display: none;
 }
 
 /* --------------------------------------------------------------------------
@@ -1435,107 +1517,14 @@ td[data-pm="6"]::before { background: var(--pm-6); }
 .topics {
   border-top: 1px solid var(--border);
 }
-<<<<<<< HEAD
+
 .entry--ghost h2 { color: var(--ink-soft); }
-/* ==========================================================================
-   AUTO-FIGURES
-   Any image an author writes in plain Markdown becomes a numbered, wide,
-   captioned figure. No include, no HTML, no classes to remember.
 
-       ![Alt text stating the finding]({{ '/assets/img/chart.gif' | relative_url }})
-       *Caption. Source: dataset, vintage.*
-
-   Works whether the caption is on the next line or after a blank line.
-   ========================================================================== */
-
-.article__body { counter-reset: figure; }
-
-/* The paragraph that contains the image becomes the figure frame. */
-.article__body p:has(> img) {
-  counter-increment: figure;
-  display: block;
-  width: min(58rem, 92vw);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 3.25rem 0;
-  padding-top: .85rem;
-  border-top: 1px solid var(--ink);
-  font-size: 1rem;
-}
-
-.article__body p:has(> img)::before {
-  content: "Figure " counter(figure);
-  display: block;
-  margin-bottom: .85rem;
-  font: 600 .6875rem/1 var(--sans);
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--ink);
-}
-
-.article__body p:has(> img) img {
-  width: 100%;
-  display: block;
-  background: var(--paper-alt);
-}
-
-/* Caption — same paragraph as the image (no blank line between them). */
-.article__body p:has(> img) em {
-  display: block;
-  margin-top: .9rem;
-  padding-top: .75rem;
-  border-top: 1px solid var(--rule-hair);
-  max-width: 44rem;
-  font: 400 .8125rem/1.6 var(--sans);
-  font-style: normal;
-  color: var(--ink-soft);
-}
-
-/* Caption — its own paragraph (blank line between them). */
-.article__body p:has(> img) + p > em:only-child {
-  display: block;
-  width: min(58rem, 92vw);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 44rem;
-  margin: -2.4rem auto 3.25rem;
-  padding-top: .75rem;
-  border-top: 1px solid var(--rule-hair);
-  font: 400 .8125rem/1.6 var(--sans);
-  font-style: normal;
-  color: var(--ink-soft);
-}
-
-@media (max-width: 62rem) {
-  .article__body p:has(> img),
-  .article__body p:has(> img) + p > em:only-child {
-    width: 100%;
-    left: 0;
-    transform: none;
-  }
-}
-
-/* A GIF cannot be paused. Say so rather than ignoring the request. */
-@media (prefers-reduced-motion: reduce) {
-  .article__body p:has(> img[src$=".gif"]) em::after,
-  .article__body p:has(> img[src$=".gif"]) + p > em:only-child::after {
-    content: "This figure is animated and cannot be paused.";
-    display: block;
-    margin-top: .5rem;
-    font-family: var(--mono);
-    font-size: .6875rem;
-    color: var(--ink-mute);
-  }
-}
-||||||| parent of 3d14801 (Modified UI and add data sources)
-.entry--ghost h2 { color: var(--ink-soft); }
-=======
 .topic {
   align-items: baseline;
   border-bottom: 1px solid var(--border);
   display: grid;
+  font-weight: 400;
   gap: 20px;
   grid-template-columns: 200px minmax(0, 1fr) auto;
   padding-block: 20px;
@@ -1652,8 +1641,8 @@ td[data-pm="6"]::before { background: var(--pm-6); }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  margin: 32px 0;
-  padding: 26px 26px 20px;
+  margin: var(--space-4) 0;
+  padding: var(--space-3) var(--space-3) 20px;
 }
 .lead__stat {
   align-items: baseline;
@@ -1682,27 +1671,130 @@ td[data-pm="6"]::before { background: var(--pm-6); }
 .staff {
   border-top: 1px solid var(--border);
   list-style: none;
-  margin: 24px 0 0;
+  margin: var(--space-3) 0 0;
   padding: 0;
 }
 .staff li {
+  align-items: baseline;
   border-bottom: 1px solid var(--border);
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 18px;
-  justify-content: space-between;
+  gap: 4px 16px;
+  justify-content: flex-start;
   margin: 0;
-  padding-block: 14px;
+  padding-block: 16px;
 }
-.staff b { font-weight: 700; }
+.staff b {
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
 .staff span {
   color: var(--ink-soft);
-  font-family: var(--font-data);
-  font-size: 12px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 /* The search control does nothing without JavaScript, so it is not shown
    until the `js` class confirms JavaScript ran. */
 .filter-box { display: none; }
 .js .filter-box { display: block; }
->>>>>>> 3d14801 (Modified UI and add data sources)
+
+.site-footer__legal {
+  border-top: 1px solid var(--border);
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  gap: 8px 24px;
+  justify-content: space-between;
+  margin-top: 36px;
+  padding-top: 18px;
+}
+
+.site-footer__legal a {
+  display: inline;
+  margin: 0;
+}
+
+.footer-caveat {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+/* ==========================================================================
+   AUTO-FIGURES
+   Any image an author writes in plain Markdown becomes a numbered, wide,
+   captioned figure. No include, no HTML, no classes to remember.
+
+       ![Alt text stating the finding]({{ '/assets/img/chart.gif' | relative_url }})
+       *Caption. Source: dataset, vintage.*
+
+   Works whether the caption is on the next line or after a blank line.
+   ========================================================================== */
+
+.article-body .prose { counter-reset: figure; }
+
+.article-body .prose p:has(> img) {
+  counter-increment: figure;
+  display: block;
+  margin: 32px 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.article-body .prose p:has(> img)::before {
+  content: "Figure " counter(figure);
+  display: block;
+  margin-bottom: 12px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.article-body .prose p:has(> img) img {
+  width: 100%;
+  display: block;
+  background: var(--paper-cool);
+}
+
+.article-body .prose p:has(> img) em {
+  display: block;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.article-body .prose p:has(> img) + p > em:only-child {
+  display: block;
+  margin: -16px 0 32px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-body .prose p:has(> img[src$=".gif"]) em::after,
+  .article-body .prose p:has(> img[src$=".gif"]) + p > em:only-child::after {
+    content: "This figure is animated and cannot be paused.";
+    display: block;
+    margin-top: 8px;
+    font-family: var(--font-code);
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+}

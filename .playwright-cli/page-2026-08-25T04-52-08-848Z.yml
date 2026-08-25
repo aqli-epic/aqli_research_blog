@@ -1,0 +1,201 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - text: WHO PM
+        - subscript [ref=f3e7]: "2.5"
+        - text: guideline 5 µg/m³ · AQLI coefficient 0.098 yr per µg/m³
+      - link "AQLI" [ref=f3e8] [cursor=pointer]:
+        - /url: https://aqli.epic.uchicago.edu/
+    - navigation "Main navigation" [ref=f3e9]:
+      - link "Air Quality Life Index home" [ref=f3e10] [cursor=pointer]:
+        - /url: /aqli_blog_demo/
+        - generic [ref=f3e16]:
+          - strong [ref=f3e17]: AQLI Research Blog
+          - emphasis [ref=f3e18]: Research inferences from AQLI data
+      - generic [ref=f3e19]:
+        - link "Stories" [ref=f3e20] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f3e21] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f3e22] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f3e23] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+        - link "Write" [ref=f3e24] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "About" [ref=f3e25] [cursor=pointer]:
+          - /url: /aqli_blog_demo/about/
+  - main [ref=f3e26]:
+    - generic [ref=f3e27]:
+      - generic [ref=f3e28]:
+        - paragraph [ref=f3e29]: Editorial guide
+        - heading "How to write for this blog" [level=1] [ref=f3e30]
+        - paragraph [ref=f3e31]: The shape of a post, the headline test, the seven lines every piece must disclose, and the words we do not use.
+      - generic [ref=f3e32]:
+        - paragraph [ref=f3e33]:
+          - text: "This blog has one job: to make an invisible quantity legible, and to be checkable while doing it. Everything below follows from that. Read it once before your first post; after that, the"
+          - link "formatting reference" [ref=f3e34] [cursor=pointer]:
+            - /url: /aqli_blog_demo/formatting/
+          - text: is the page you will actually keep open.
+        - heading "The shape of a post" [level=2] [ref=f3e35]
+        - paragraph [ref=f3e36]: Six moves, in this order. Not a template to fill, but a structure that has to be there somewhere.
+        - list [ref=f3e37]:
+          - listitem [ref=f3e38]:
+            - strong [ref=f3e39]: The number, immediately.
+            - text: First or second paragraph. A reader who stops after thirty seconds should leave with one figure and its unit. Not a scene, not a history of the region, not a throat-clearing paragraph about how air pollution is a growing concern.
+          - listitem [ref=f3e40]:
+            - strong [ref=f3e41]: The arithmetic, shown.
+            - text: Baseline, target, gap, coefficient, result. Five short clauses. If it takes a paragraph to explain how you got the number, the number is doing too much work.
+          - listitem [ref=f3e42]:
+            - strong [ref=f3e43]: What the number means.
+            - text: "The translation into something a person can hold: years, a policy gap, a difference between two places."
+          - listitem [ref=f3e44]:
+            - strong [ref=f3e45]: What the number is not.
+            - text: Every post says what its figure does
+            - emphasis [ref=f3e46]: not
+            - text: claim. This is not hedging. It is the reason the figure can be trusted at all.
+          - listitem [ref=f3e47]:
+            - strong [ref=f3e48]: Where to be sceptical.
+            - text: Name two or three specific weaknesses in your own analysis, by name. The baseline. The linearity. The counterfactual. Whatever they actually are.
+          - listitem [ref=f3e49]:
+            - strong [ref=f3e50]: The lever.
+            - text: Pollution is a symptom; the years are a price; somewhere there is a decision that sets it. End on the decision, not on a call to action.
+        - paragraph [ref=f3e51]: "Length: 700–1,200 words. A post that needs 2,500 words is usually two posts, or one post and a methods note."
+        - heading "The headline test" [level=2] [ref=f3e52]
+        - paragraph [ref=f3e53]: A headline is a claim, not a topic.
+        - table [ref=f3e54]:
+          - rowgroup [ref=f3e55]:
+            - row [ref=f3e56]:
+              - columnheader "Not this" [ref=f3e57]
+              - columnheader "This" [ref=f3e58]
+          - rowgroup [ref=f3e59]:
+            - row [ref=f3e60]:
+              - cell "Air pollution in Example District A" [ref=f3e61]
+              - cell "The years hidden in one district’s air" [ref=f3e62]
+            - row [ref=f3e63]:
+              - cell "Understanding PM₂.₅ standards" [ref=f3e64]
+              - cell "What a standard actually promises" [ref=f3e65]
+            - row [ref=f3e66]:
+              - cell "A note on population weighting" [ref=f3e67]
+              - cell "Population weighting decides the story before you write it" [ref=f3e68]
+        - paragraph [ref=f3e69]: If your headline would still make sense with the district name swapped out, it is a topic, not a claim. Write the claim.
+        - heading "The standfirst" [level=2] [ref=f3e70]
+        - paragraph [ref=f3e71]:
+          - text: One or two sentences, in the
+          - code [ref=f3e72]: "standfirst:"
+          - text: field. It says what the piece
+          - strong [ref=f3e73]: found
+          - text: . It does not preview what the piece will “explore”, “examine”, “look at” or “dive into”. A standfirst that could sit above any post on the site is not a standfirst.
+        - heading "The seven-line disclosure" [level=2] [ref=f3e74]
+        - paragraph [ref=f3e75]: Every post that reports a place-level figure carries a methods box, and the box has seven lines. Not six. Seven.
+        - generic [ref=f3e76]:
+          - paragraph [ref=f3e77]:
+            - strong [ref=f3e78]: Reporting checklist
+          - paragraph [ref=f3e79]: Baseline year.
+          - paragraph [ref=f3e80]: Pollution target used — guideline, national standard, or a specific policy commitment.
+          - paragraph [ref=f3e81]: Geographic unit.
+          - paragraph [ref=f3e82]: Population-weighting method.
+          - paragraph [ref=f3e83]: PM₂.₅ data source, with vintage.
+          - paragraph [ref=f3e84]: Life-expectancy coefficient.
+          - paragraph [ref=f3e85]: Uncertainty and caveats.
+        - paragraph [ref=f3e86]:
+          - text: A post that cannot fill all seven is not finished. It is a draft with a headline. The markup for the box is in the
+          - link "formatting reference" [ref=f3e87] [cursor=pointer]:
+            - /url: /aqli_blog_demo/formatting/#the-methods-box
+          - text: .
+        - heading "Numbers" [level=2] [ref=f3e88]
+        - list [ref=f3e89]:
+          - listitem [ref=f3e90]:
+            - strong [ref=f3e91]: Units, always.
+            - text: µg/m³. Never a bare concentration.
+          - listitem [ref=f3e92]:
+            - strong [ref=f3e93]: Round honestly.
+            - text: Two significant figures for a life-expectancy gain; a third implies a precision the coefficient does not have.
+          - listitem [ref=f3e94]:
+            - strong [ref=f3e95]: Never restate a standing figure in prose.
+            - text: The WHO guideline and β live in
+            - code [ref=f3e96]: _config.yml
+            - text: . Write
+            - code [ref=f3e97]: "{{ site.who_guideline }}"
+            - text: and
+            - code [ref=f3e98]: "{{ site.aqli_coefficient }}"
+            - text: ", so that when a value is revised your post updates with it instead of quietly going stale."
+          - listitem [ref=f3e99]:
+            - strong [ref=f3e100]: Derive, don’t retype.
+            - text: "A gain of 4.9 years should be computed in the page, not typed:"
+            - code [ref=f3e101]: "{{ page.pm25 | minus: site.who_guideline | times: site.aqli_coefficient | round: 2 }}"
+            - text: .
+          - listitem [ref=f3e102]:
+            - strong [ref=f3e103]: Label demo data as demo data.
+            - text: In the standfirst or the first figure caption, not in a footnote.
+        - heading "Colour" [level=2] [ref=f3e104]
+        - paragraph [ref=f3e105]: Colour on this site means a measurement. The exposure ramp belongs to the ruler, to data swatches in tables, and to charts. It does not belong to headings, buttons, callouts, or decoration. If you find yourself wanting an accent colour to make a section feel important, the section is not important enough.
+        - heading "Words we do not use" [level=2] [ref=f3e106]
+        - paragraph [ref=f3e107]:
+          - strong [ref=f3e108]: “Silent killer”, “toxic cocktail”, “airpocalypse”, “gasping”, “choking”.
+          - text: They spend the reader’s attention on the writer’s vocabulary. The number is more frightening than the adjective.
+        - paragraph [ref=f3e109]:
+          - strong [ref=f3e110]: “Studies show” / “experts say”.
+          - text: Name the study. Link it. If you cannot, cut the sentence.
+        - paragraph [ref=f3e111]:
+          - strong [ref=f3e112]: “Worse than smoking N cigarettes a day.”
+          - text: It is a rhetorical conversion, not a finding, and it ages badly the moment someone checks it.
+        - paragraph [ref=f3e113]:
+          - strong [ref=f3e114]: “Simply” / “just” / “of course”.
+          - text: They tell a reader who does not follow that they should have.
+        - paragraph [ref=f3e115]:
+          - strong [ref=f3e116]: “Explore”, “delve”, “dive into”, “unpack”.
+          - text: Say what you found.
+        - heading "Before you open the pull request" [level=2] [ref=f3e117]
+        - list [ref=f3e118]:
+          - listitem [ref=f3e119]: The headline is a claim.
+          - listitem [ref=f3e120]: The first figure appears above the fold, with its unit.
+          - listitem [ref=f3e121]: The methods box has seven lines and all seven are filled.
+          - listitem [ref=f3e122]: Every standing figure is a Liquid reference, not a typed number.
+          - listitem [ref=f3e123]:
+            - code [ref=f3e124]: "place:"
+            - text: and
+            - code [ref=f3e125]: "pm25:"
+            - text: are in the front matter if the post is about a place, so the ruler renders.
+          - listitem [ref=f3e126]: Nothing in the piece is coloured that is not measuring something.
+          - listitem [ref=f3e127]: Someone who disagrees with you could reproduce your figure from what is on the page.
+        - paragraph [ref=f3e128]: That last one is the whole standard. Everything above is a way of meeting it.
+  - contentinfo [ref=f3e129]:
+    - generic [ref=f3e130]:
+      - generic [ref=f3e131]:
+        - link [ref=f3e132] [cursor=pointer]:
+          - /url: /aqli_blog_demo/
+          - generic [ref=f3e138]:
+            - strong [ref=f3e139]: AQLI Research Blog
+            - emphasis [ref=f3e140]: Research inferences from AQLI data
+        - paragraph [ref=f3e141]: Evidence-led reporting on particulate pollution, life expectancy, and clean-air policy from the Air Quality Life Index.
+        - paragraph [ref=f3e142]: Figures on this site are illustrative demonstration values, not published estimates.
+      - generic [ref=f3e143]:
+        - heading "Sections" [level=2] [ref=f3e144]
+        - link "Stories" [ref=f3e145] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f3e146] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f3e147] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f3e148] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+      - generic [ref=f3e149]:
+        - heading "Contribute" [level=2] [ref=f3e150]
+        - link "Editorial guide" [ref=f3e151] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "Formatting reference" [ref=f3e152] [cursor=pointer]:
+          - /url: /aqli_blog_demo/formatting/
+        - link "Download the demo data" [ref=f3e153] [cursor=pointer]:
+          - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+        - link "RSS feed" [ref=f3e154] [cursor=pointer]:
+          - /url: /aqli_blog_demo/feed.xml
+    - generic [ref=f3e155]:
+      - generic [ref=f3e156]: 2026 AQLI
+      - generic [ref=f3e157]:
+        - text: "Published estimates:"
+        - link "aqli.epic.uchicago.edu" [ref=f3e158] [cursor=pointer]:
+          - /url: https://aqli.epic.uchicago.edu/

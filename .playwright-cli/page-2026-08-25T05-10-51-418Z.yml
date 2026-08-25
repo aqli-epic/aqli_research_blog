@@ -1,0 +1,144 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - text: WHO PM
+        - subscript [ref=f3e7]: "2.5"
+        - text: guideline 5 µg/m³ · AQLI coefficient 0.098 yr per µg/m³
+      - link "AQLI" [ref=f3e8] [cursor=pointer]:
+        - /url: https://aqli.epic.uchicago.edu/
+    - navigation "Main navigation" [ref=f3e9]:
+      - link "Air Quality Life Index home" [ref=f3e10] [cursor=pointer]:
+        - /url: /aqli_blog_demo/
+        - generic [ref=f3e16]:
+          - strong [ref=f3e17]: AQLI Research Blog
+          - emphasis [ref=f3e18]: Research inferences from AQLI data
+      - generic [ref=f3e19]:
+        - link "Stories" [ref=f3e20] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f3e21] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f3e22] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f3e23] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+        - link "Write" [ref=f3e24] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "About" [ref=f3e25] [cursor=pointer]:
+          - /url: /aqli_blog_demo/about/
+  - main [ref=f3e26]:
+    - generic [ref=f3e27]:
+      - generic [ref=f3e28]:
+        - paragraph [ref=f3e29]: Register
+        - heading "Stories" [level=1] [ref=f3e30]
+        - paragraph [ref=f3e31]: Everything published, newest first, with the exposure each story describes.
+      - generic [ref=f3e32]:
+        - generic [ref=f3e33]:
+          - generic [ref=f3e34]: Search stories
+          - searchbox "Search stories" [ref=f3e35]
+        - generic [ref=f3e36]:
+          - article [ref=f3e37]:
+            - link "Read Global burned area is falling. The fires that matter most are rising." [ref=f3e38] [cursor=pointer]:
+              - /url: /aqli_blog_demo/blog/2026/07/20/the-fire-paradox/
+            - generic [ref=f3e39]:
+              - paragraph [ref=f3e40]:
+                - time [ref=f3e41]: Jul 20, 2026
+                - text: · Exposure
+              - heading [level=3] [ref=f3e42]:
+                - link "Global burned area is falling. The fires that matter most are rising." [ref=f3e43] [cursor=pointer]:
+                  - /url: /aqli_blog_demo/blog/2026/07/20/the-fire-paradox/
+              - paragraph [ref=f3e44]: Twenty-three years of satellite data show the planet burning about a sixth less than it did in 2002. It is also true that the fires nearest to huma...
+              - generic [ref=f3e45]:
+                - generic [ref=f3e46]: global
+                - generic [ref=f3e47]: india
+                - generic [ref=f3e48]: data
+          - article [ref=f3e49]:
+            - link "Read Population weighting decides the story before you write it" [ref=f3e50] [cursor=pointer]:
+              - /url: /aqli_blog_demo/blog/2026/07/15/population-weighting-decides-the-story/
+            - generic [ref=f3e51]:
+              - paragraph [ref=f3e52]:
+                - time [ref=f3e53]: Jul 15, 2026
+                - text: · Method
+              - heading [level=3] [ref=f3e54]:
+                - link "Population weighting decides the story before you write it" [ref=f3e55] [cursor=pointer]:
+                  - /url: /aqli_blog_demo/blog/2026/07/15/population-weighting-decides-the-story/
+              - paragraph [ref=f3e56]: Two defensible ways to average a region's air can differ by more than a decade of policy progress. The choice is made before any analysis begins, a...
+              - generic [ref=f3e57]: data
+          - article [ref=f3e59]:
+            - link "Read A district in compliance, and what compliance buys" [ref=f3e60] [cursor=pointer]:
+              - /url: /aqli_blog_demo/blog/2026/07/02/a-district-in-compliance-and-what-it-buys/
+            - generic [ref=f3e61]:
+              - paragraph [ref=f3e62]:
+                - time [ref=f3e63]: Jul 2, 2026
+                - text: · Policy
+              - heading [level=3] [ref=f3e64]:
+                - link "A district in compliance, and what compliance buys" [ref=f3e65] [cursor=pointer]:
+                  - /url: /aqli_blog_demo/blog/2026/07/02/a-district-in-compliance-and-what-it-buys/
+              - paragraph [ref=f3e66]: Example District B meets its national standard and has done for years. Measured against the WHO guideline, that clean bill of health is still worth...
+              - generic [ref=f3e67]:
+                - paragraph [ref=f3e68]:
+                  - generic [ref=f3e69]: Example District B
+                  - generic [ref=f3e70]: 38 µg/m³
+                - figure [ref=f3e71]:
+                  - img "Annual mean PM2.5 of 38 micrograms per cubic metre, against a WHO guideline of 5." [ref=f3e72]
+              - generic [ref=f3e81]:
+                - generic [ref=f3e82]: policy
+                - generic [ref=f3e83]: life-expectancy
+          - article [ref=f3e84]:
+            - link "Read The years hidden in one district's air" [ref=f3e85] [cursor=pointer]:
+              - /url: /aqli_blog_demo/blog/2026/06/18/the-years-hidden-in-one-districts-air/
+            - generic [ref=f3e86]:
+              - paragraph [ref=f3e87]:
+                - time [ref=f3e88]: Jun 18, 2026
+                - text: · Exposure
+              - heading [level=3] [ref=f3e89]:
+                - link "The years hidden in one district's air" [ref=f3e90] [cursor=pointer]:
+                  - /url: /aqli_blog_demo/blog/2026/06/18/the-years-hidden-in-one-districts-air/
+              - paragraph [ref=f3e91]: Example District A sits at 55 µg/m³. Against the WHO guideline that gap is worth 4.9 years of life expectancy — more than the district loses to any...
+              - generic [ref=f3e92]:
+                - paragraph [ref=f3e93]:
+                  - generic [ref=f3e94]: Example District A
+                  - generic [ref=f3e95]: 55 µg/m³
+                - figure [ref=f3e96]:
+                  - img "Annual mean PM2.5 of 55 micrograms per cubic metre, against a WHO guideline of 5." [ref=f3e97]
+              - generic [ref=f3e106]:
+                - generic [ref=f3e107]: pm2.5
+                - generic [ref=f3e108]: life-expectancy
+  - contentinfo [ref=f3e109]:
+    - generic [ref=f3e110]:
+      - generic [ref=f3e111]:
+        - link [ref=f3e112] [cursor=pointer]:
+          - /url: /aqli_blog_demo/
+          - generic [ref=f3e118]:
+            - strong [ref=f3e119]: AQLI Research Blog
+            - emphasis [ref=f3e120]: Research inferences from AQLI data
+        - paragraph [ref=f3e121]: Evidence-led reporting on particulate pollution, life expectancy, and clean-air policy from the Air Quality Life Index.
+        - paragraph [ref=f3e122]: Figures on this site are illustrative demonstration values, not published estimates.
+      - generic [ref=f3e123]:
+        - heading "Sections" [level=2] [ref=f3e124]
+        - link "Stories" [ref=f3e125] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f3e126] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f3e127] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f3e128] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+      - generic [ref=f3e129]:
+        - heading "Contribute" [level=2] [ref=f3e130]
+        - link "Editorial guide" [ref=f3e131] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "Formatting reference" [ref=f3e132] [cursor=pointer]:
+          - /url: /aqli_blog_demo/formatting/
+        - link "Download the demo data" [ref=f3e133] [cursor=pointer]:
+          - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+        - link "RSS feed" [ref=f3e134] [cursor=pointer]:
+          - /url: /aqli_blog_demo/feed.xml
+    - generic [ref=f3e135]:
+      - generic [ref=f3e136]: 2026 AQLI
+      - generic [ref=f3e137]:
+        - text: "Published estimates:"
+        - link "aqli.epic.uchicago.edu" [ref=f3e138] [cursor=pointer]:
+          - /url: https://aqli.epic.uchicago.edu/

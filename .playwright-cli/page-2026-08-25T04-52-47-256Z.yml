@@ -1,0 +1,149 @@
+- generic [active] [ref=f5e1]:
+  - link "Skip to content" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e5]:
+      - generic [ref=f5e6]:
+        - text: WHO PM
+        - subscript [ref=f5e7]: "2.5"
+        - text: guideline 5 µg/m³ · AQLI coefficient 0.098 yr per µg/m³
+      - link "AQLI" [ref=f5e8] [cursor=pointer]:
+        - /url: https://aqli.epic.uchicago.edu/
+    - navigation "Main navigation" [ref=f5e9]:
+      - link "Air Quality Life Index home" [ref=f5e10] [cursor=pointer]:
+        - /url: /aqli_blog_demo/
+        - generic [ref=f5e16]:
+          - strong [ref=f5e17]: AQLI Research Blog
+          - emphasis [ref=f5e18]: Research inferences from AQLI data
+      - generic [ref=f5e19]:
+        - link "Stories" [ref=f5e20] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f5e21] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f5e22] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f5e23] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+        - link "Write" [ref=f5e24] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "About" [ref=f5e25] [cursor=pointer]:
+          - /url: /aqli_blog_demo/about/
+  - main [ref=f5e26]:
+    - article [ref=f5e27]:
+      - generic [ref=f5e29]:
+        - generic [ref=f5e30]:
+          - link "All stories" [ref=f5e31] [cursor=pointer]:
+            - /url: /aqli_blog_demo/blog/
+          - paragraph [ref=f5e32]:
+            - time [ref=f5e33]: June 18, 2026
+            - text: · Exposure
+          - heading "The years hidden in one district's air" [level=1] [ref=f5e34]
+          - paragraph [ref=f5e35]: Example District A sits at 55 µg/m³. Against the WHO guideline that gap is worth 4.9 years of life expectancy — more than the district loses to any single named disease.
+          - generic [ref=f5e36]:
+            - generic [ref=f5e37]: By AQLI data team
+            - generic [ref=f5e38]: 4 min read
+        - 'figure "Gap to the WHO guideline: 50 µg/m³. Implied life-expectancy gain if closed: 4.9 years." [ref=f5e39]':
+          - paragraph [ref=f5e40]: Where this story sits on the scale
+          - generic [ref=f5e41]:
+            - generic [ref=f5e42]: "55"
+            - generic [ref=f5e43]:
+              - text: µg/m³ annual mean PM
+              - subscript [ref=f5e44]: "2.5"
+              - text: in Example District A
+          - figure [ref=f5e45]:
+            - img "Annual mean PM2.5 of 55 micrograms per cubic metre, against a WHO guideline of 5." [ref=f5e46]:
+              - generic [ref=f5e53]: WHO 5
+              - generic [ref=f5e54]: Example District A
+            - generic [ref=f5e55]:
+              - generic [ref=f5e56]: "0"
+              - generic [ref=f5e57]: "25"
+              - generic [ref=f5e58]: "50"
+              - generic [ref=f5e59]: "75"
+              - generic [ref=f5e60]: 100+ µg/m³
+      - generic [ref=f5e62]:
+        - complementary "Post details" [ref=f5e63]:
+          - generic [ref=f5e64]:
+            - strong [ref=f5e65]: Published
+            - generic [ref=f5e66]: Jun 18, 2026
+          - generic [ref=f5e67]:
+            - strong [ref=f5e68]: Section
+            - generic [ref=f5e69]: Exposure
+          - generic [ref=f5e70]:
+            - strong [ref=f5e71]: Place
+            - generic [ref=f5e72]: Example District A
+          - generic [ref=f5e73]:
+            - strong [ref=f5e74]:
+              - text: Annual mean PM
+              - subscript [ref=f5e75]: "2.5"
+            - generic [ref=f5e76]: 55 µg/m³
+          - generic [ref=f5e77]:
+            - strong [ref=f5e78]: Years at stake
+            - generic [ref=f5e79]: "4.9"
+          - generic [ref=f5e80]:
+            - strong [ref=f5e81]: Topics
+            - generic [ref=f5e82]: pm2.5, life-expectancy
+          - generic [ref=f5e83]:
+            - strong [ref=f5e84]: Reading time
+            - generic [ref=f5e85]: 4 min
+        - generic [ref=f5e86]:
+          - paragraph [ref=f5e87]: Nothing about the air in Example District A announces itself. There is no smell on most days, no visible plume, no siren. The annual mean concentration of fine particulate matter is 55 µg/m³, and that number is the whole story.
+          - paragraph [ref=f5e88]:
+            - text: The arithmetic is short. The WHO annual guideline is 5 µg/m³. This district sits 50 µg/m³ above it. The AQLI coefficient of 0.098 years per µg/m³ turns that gap into
+            - strong [ref=f5e89]: 4.9 years
+            - text: of life expectancy, held by the difference between the air people here breathe and the air the guideline describes.
+          - heading "What the number means" [level=2] [ref=f5e90]
+          - paragraph [ref=f5e91]: Nearly five years is not a rounding error in a life. It is the difference between meeting a grandchild and not. Set against causes of death that have names, budgets and awareness campaigns, particulate pollution in this district outweighs most of them — and unlike them it has no diagnosis, no clinic, and no moment at which anyone is told they have it.
+          - paragraph [ref=f5e92]: "It is also worth being precise about who holds the years. This is not a prediction about any particular resident. It is a statement about a population: if everyone in Example District A breathed air at 5 µg/m³ for the rest of their lives, average life expectancy across that population would be about 4.9 years higher than it is on current air. The years are distributed unevenly, and they are not owed to anyone in particular."
+          - heading "What the number is not" [level=2] [ref=f5e93]
+          - paragraph [ref=f5e94]: It is not a measurement. It is a translation of a measurement through a coefficient estimated elsewhere, on a different population, under assumptions that this district was never checked against.
+          - paragraph [ref=f5e95]: It is not a forecast. It describes a counterfactual — sustained exposure at the guideline, starting now — that no policy currently on the table would deliver on that timetable. A district that halves its concentration over fifteen years does not collect 4.9 years, or half of them, on any schedule this figure can tell you.
+          - paragraph [ref=f5e96]: And it is not a claim about a cause of death. Nobody dies of 55 µg/m³. They die of the cardiovascular and respiratory conditions that sustained exposure makes more likely and more severe, which is a different sentence with different evidence behind it.
+          - heading "Where to be sceptical" [level=2] [ref=f5e97]
+          - paragraph [ref=f5e98]:
+            - strong [ref=f5e99]: The baseline is a single year.
+            - text: One annual mean is a thin baseline for a figure expressed in decades. A year with unusual meteorology — a long inversion, an early monsoon — moves the mean by several µg/m³ without anything changing about what is emitted. A three-year rolling mean would be the honest input, and this post does not use one.
+          - paragraph [ref=f5e100]:
+            - strong [ref=f5e101]: The linearity is doing heavy lifting.
+            - text: A constant β means the first microgram removed and the fiftieth are worth the same. At 55 µg/m³ the district sits well above the range where that assumption is most comfortable, and the true relationship may flatten at high concentrations. If it does, this figure is too high.
+          - paragraph [ref=f5e102]:
+            - strong [ref=f5e103]: The district mean hides the exposure that matters.
+            - text: Population-weighting corrects for where people live, not for how they live. A roadside household and a household two kilometres upwind receive the same number here, and their actual exposures may differ by more than the gap this whole post is about.
+          - heading "The lever" [level=2] [ref=f5e104]
+          - paragraph [ref=f5e105]: "Concentration is not weather. Roughly speaking, this district’s 55 µg/m³ is the sum of decisions made somewhere: what the power fleet burns, whether the brick kilns are converted, whether crop residue has an economic alternative to burning, how freight moves through the district and on what fuel."
+          - paragraph [ref=f5e106]: Each of those has a number attached, and the numbers add up to this one. The years are the price; the decisions are the invoice. Whether the district pays it is not a question about air.
+  - contentinfo [ref=f5e107]:
+    - generic [ref=f5e108]:
+      - generic [ref=f5e109]:
+        - link [ref=f5e110] [cursor=pointer]:
+          - /url: /aqli_blog_demo/
+          - generic [ref=f5e116]:
+            - strong [ref=f5e117]: AQLI Research Blog
+            - emphasis [ref=f5e118]: Research inferences from AQLI data
+        - paragraph [ref=f5e119]: Evidence-led reporting on particulate pollution, life expectancy, and clean-air policy from the Air Quality Life Index.
+        - paragraph [ref=f5e120]: Figures on this site are illustrative demonstration values, not published estimates.
+      - generic [ref=f5e121]:
+        - heading "Sections" [level=2] [ref=f5e122]
+        - link "Stories" [ref=f5e123] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f5e124] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f5e125] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f5e126] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+      - generic [ref=f5e127]:
+        - heading "Contribute" [level=2] [ref=f5e128]
+        - link "Editorial guide" [ref=f5e129] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "Formatting reference" [ref=f5e130] [cursor=pointer]:
+          - /url: /aqli_blog_demo/formatting/
+        - link "Download the demo data" [ref=f5e131] [cursor=pointer]:
+          - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+        - link "RSS feed" [ref=f5e132] [cursor=pointer]:
+          - /url: /aqli_blog_demo/feed.xml
+    - generic [ref=f5e133]:
+      - generic [ref=f5e134]: 2026 AQLI
+      - generic [ref=f5e135]:
+        - text: "Published estimates:"
+        - link "aqli.epic.uchicago.edu" [ref=f5e136] [cursor=pointer]:
+          - /url: https://aqli.epic.uchicago.edu/

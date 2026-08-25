@@ -6,14 +6,14 @@ description: "Everything published by the Air Quality Life Index blog, newest fi
 ---
 
 <main id="main-content" class="page-shell">
-  <section class="page-hero shell">
-    <p class="eyebrow">Register</p>
-    <h1>Stories</h1>
-    <p>Everything published, newest first, with the exposure each story describes.</p>
-  </section>
+  <div class="shell">
+    <header class="page-hero">
+      <p class="eyebrow">Register</p>
+      <h1>Stories</h1>
+      <p>Everything published, newest first, with the exposure each story describes.</p>
+    </header>
 
-  <section class="section section--muted">
-    <div class="shell">
+    <div class="page-body">
       {%- if site.posts.size > 0 -%}
       <div class="filter-box filter-box--wide">
         <label for="archive-search">Search stories</label>
@@ -39,5 +39,5 @@ description: "Everything published by the Air Quality Life Index blog, newest fi
       </p>
       {%- endif -%}
     </div>
-  </section>
+  </div>
 </main>

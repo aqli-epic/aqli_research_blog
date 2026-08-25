@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: WHO PM
+        - subscript [ref=e7]: "2.5"
+        - text: guideline 5 µg/m³ · AQLI coefficient 0.098 yr per µg/m³
+      - link "AQLI" [ref=e8] [cursor=pointer]:
+        - /url: https://aqli.epic.uchicago.edu/
+    - navigation "Main navigation" [ref=e9]:
+      - link "Air Quality Life Index home" [ref=e10] [cursor=pointer]:
+        - /url: /aqli_blog_demo/
+        - generic [ref=e16]:
+          - strong [ref=e17]: AQLI Research Blog
+          - emphasis [ref=e18]: Research inferences from AQLI data
+      - generic [ref=e19]:
+        - link "Stories" [ref=e20] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=e21] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=e22] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=e23] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+        - link "Write" [ref=e24] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "About" [ref=e25] [cursor=pointer]:
+          - /url: /aqli_blog_demo/about/
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: Corner
+        - heading "Data" [level=1] [ref=e30]
+        - paragraph [ref=e31]: Small, downloadable, and honest about being a demonstration.
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Everything on this site is reproducible from one file. It contains illustrative demo values, not published estimates, and it exists so the layout can be designed against real structure rather than against a placeholder.
+          - paragraph [ref=e35]:
+            - link [ref=e36] [cursor=pointer]:
+              - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+              - text: Download
+              - code [ref=e37]: aqli_demo.csv
+            - text: — 5 rows, 5 columns, 1 kB.
+        - table [ref=e39]:
+          - caption [ref=e40]: Life-expectancy gain if each district met the WHO guideline of 5 µg/m³. Swatches follow the exposure ruler used across the site.
+          - rowgroup [ref=e41]:
+            - row [ref=e42]:
+              - columnheader "Region" [ref=e43]
+              - columnheader "Baseline PM₂.₅" [ref=e44]
+              - columnheader "Target PM₂.₅" [ref=e45]
+              - columnheader "β" [ref=e46]
+              - columnheader "Gain (years)" [ref=e47]
+          - rowgroup [ref=e48]:
+            - row [ref=e49]:
+              - cell "Example District A" [ref=e50]
+              - cell "55" [ref=e51]
+              - cell "5" [ref=e52]
+              - cell "0.098" [ref=e53]
+              - cell "4.90" [ref=e54]
+            - row [ref=e55]:
+              - cell "Example District B" [ref=e56]
+              - cell "38" [ref=e57]
+              - cell "5" [ref=e58]
+              - cell "0.098" [ref=e59]
+              - cell "3.23" [ref=e60]
+            - row [ref=e61]:
+              - cell "Example District C" [ref=e62]
+              - cell "22" [ref=e63]
+              - cell "5" [ref=e64]
+              - cell "0.098" [ref=e65]
+              - cell "1.67" [ref=e66]
+            - row [ref=e67]:
+              - cell "Example District D" [ref=e68]
+              - cell "12" [ref=e69]
+              - cell "5" [ref=e70]
+              - cell "0.098" [ref=e71]
+              - cell "0.69" [ref=e72]
+            - row [ref=e73]:
+              - cell "Example District E" [ref=e74]
+              - cell "6" [ref=e75]
+              - cell "5" [ref=e76]
+              - cell "0.098" [ref=e77]
+              - cell "0.10" [ref=e78]
+        - generic [ref=e79]:
+          - heading "What belongs here next" [level=2] [ref=e80]
+          - list [ref=e81]:
+            - listitem [ref=e82]: District and state CSVs, versioned, with a changelog
+            - listitem [ref=e83]: Static PNG and SVG charts, so the page renders without JavaScript
+            - listitem [ref=e84]: "A data dictionary: one row per column, units declared"
+            - listitem [ref=e85]: Source notes and vintage for every dataset
+            - listitem [ref=e86]: The R or Python script that produced each table, in full
+            - listitem [ref=e87]: A caveat box on every file, not just the ones where it feels necessary
+  - contentinfo [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - link [ref=e91] [cursor=pointer]:
+          - /url: /aqli_blog_demo/
+          - generic [ref=e97]:
+            - strong [ref=e98]: AQLI Research Blog
+            - emphasis [ref=e99]: Research inferences from AQLI data
+        - paragraph [ref=e100]: Evidence-led reporting on particulate pollution, life expectancy, and clean-air policy from the Air Quality Life Index.
+        - paragraph [ref=e101]: Figures on this site are illustrative demonstration values, not published estimates.
+      - generic [ref=e102]:
+        - heading "Sections" [level=2] [ref=e103]
+        - link "Stories" [ref=e104] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=e105] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=e106] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=e107] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+      - generic [ref=e108]:
+        - heading "Contribute" [level=2] [ref=e109]
+        - link "Editorial guide" [ref=e110] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "Formatting reference" [ref=e111] [cursor=pointer]:
+          - /url: /aqli_blog_demo/formatting/
+        - link "Download the demo data" [ref=e112] [cursor=pointer]:
+          - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+        - link "RSS feed" [ref=e113] [cursor=pointer]:
+          - /url: /aqli_blog_demo/feed.xml
+    - generic [ref=e114]:
+      - generic [ref=e115]: 2026 AQLI
+      - generic [ref=e116]:
+        - text: "Published estimates:"
+        - link "aqli.epic.uchicago.edu" [ref=e117] [cursor=pointer]:
+          - /url: https://aqli.epic.uchicago.edu/

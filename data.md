@@ -17,7 +17,7 @@ than against a placeholder.
 
 <div class="table-scroll">
   <table>
-    <caption class="datum" style="text-align:left; padding-bottom:1rem;">
+    <caption class="datum">
       Life-expectancy gain if each district met the WHO guideline of {{ site.who_guideline }} µg/m³.
       Swatches follow the exposure ruler used across the site.
     </caption>

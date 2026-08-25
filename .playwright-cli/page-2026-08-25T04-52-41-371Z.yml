@@ -1,0 +1,258 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]:
+        - text: WHO PM
+        - subscript [ref=f4e7]: "2.5"
+        - text: guideline 5 µg/m³ · AQLI coefficient 0.098 yr per µg/m³
+      - link "AQLI" [ref=f4e8] [cursor=pointer]:
+        - /url: https://aqli.epic.uchicago.edu/
+    - navigation "Main navigation" [ref=f4e9]:
+      - link "Air Quality Life Index home" [ref=f4e10] [cursor=pointer]:
+        - /url: /aqli_blog_demo/
+        - generic [ref=f4e16]:
+          - strong [ref=f4e17]: AQLI Research Blog
+          - emphasis [ref=f4e18]: Research inferences from AQLI data
+      - generic [ref=f4e19]:
+        - link "Stories" [ref=f4e20] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f4e21] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f4e22] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f4e23] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+        - link "Write" [ref=f4e24] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "About" [ref=f4e25] [cursor=pointer]:
+          - /url: /aqli_blog_demo/about/
+  - main [ref=f4e26]:
+    - generic [ref=f4e27]:
+      - generic [ref=f4e28]:
+        - paragraph [ref=f4e29]: Documentation
+        - heading "Methods" [level=1] [ref=f4e30]
+        - paragraph [ref=f4e31]: The equation, the coefficient, and the seven things every post has to declare before it goes up.
+      - generic [ref=f4e32]:
+        - paragraph [ref=f4e33]: AQLI-style communication connects long-term particulate exposure to life expectancy through a single linear translation. It is deliberately simple, which is its strength as a communication device and its weakness as a model. Both are worth saying out loud.
+        - heading "The calculation" [level=2] [ref=f4e34]
+        - generic [ref=f4e35]:
+          - generic [ref=f4e36]:
+            - generic [ref=f4e37]: Δ
+            - generic [ref=f4e39]: L
+            - generic [ref=f4e41]: E
+            - generic [ref=f4e43]: =
+            - generic [ref=f4e45]:
+              - generic [ref=f4e46]: (
+              - generic [ref=f4e48]: P
+              - generic [ref=f4e50]:
+                - generic [ref=f4e51]: M
+                - generic [ref=f4e53]:
+                  - generic [ref=f4e55]:
+                    - generic [ref=f4e56]: b
+                    - generic [ref=f4e57]: a
+                    - generic [ref=f4e58]: s
+                    - generic [ref=f4e59]: e
+                    - generic [ref=f4e60]: l
+                    - generic [ref=f4e61]: i
+                    - generic [ref=f4e62]: "n"
+                    - generic [ref=f4e63]: e
+                  - generic [ref=f4e65]:
+                    - generic [ref=f4e66]: "2"
+                    - generic [ref=f4e67]: .
+                    - generic [ref=f4e68]: "5"
+              - generic [ref=f4e69]: −
+              - generic [ref=f4e71]: P
+              - generic [ref=f4e73]:
+                - generic [ref=f4e74]: M
+                - generic [ref=f4e76]:
+                  - generic [ref=f4e78]:
+                    - generic [ref=f4e79]: t
+                    - generic [ref=f4e80]: a
+                    - generic [ref=f4e81]: r
+                    - generic [ref=f4e82]: g
+                    - generic [ref=f4e83]: e
+                    - generic [ref=f4e84]: t
+                  - generic [ref=f4e86]:
+                    - generic [ref=f4e87]: "2"
+                    - generic [ref=f4e88]: .
+                    - generic [ref=f4e89]: "5"
+              - generic [ref=f4e90]: )
+            - generic [ref=f4e92]: ×
+            - generic [ref=f4e94]: β
+          - math [ref=f4e97]:
+            - generic [ref=f4e98]: Δ
+            - generic [ref=f4e99]: L
+            - generic [ref=f4e100]: E
+            - generic [ref=f4e101]: =
+            - generic [ref=f4e102]:
+              - generic [ref=f4e103]: (
+              - generic [ref=f4e104]: P
+              - generic [ref=f4e105]:
+                - generic [ref=f4e106]: M
+                - generic [ref=f4e107]: "2.5"
+                - generic [ref=f4e109]: baseline
+              - generic [ref=f4e111]: −
+              - generic [ref=f4e112]: P
+              - generic [ref=f4e113]:
+                - generic [ref=f4e114]: M
+                - generic [ref=f4e115]: "2.5"
+                - generic [ref=f4e117]: target
+              - generic [ref=f4e119]: )
+            - generic [ref=f4e120]: ×
+            - generic [ref=f4e121]: β
+        - table [ref=f4e122]:
+          - rowgroup [ref=f4e123]:
+            - row [ref=f4e124]:
+              - columnheader "Symbol" [ref=f4e125]
+              - columnheader "Meaning" [ref=f4e126]
+              - columnheader "Units" [ref=f4e127]
+          - rowgroup [ref=f4e128]:
+            - row [ref=f4e129]:
+              - cell [ref=f4e130]:
+                - generic [ref=f4e131]:
+                  - generic [ref=f4e132]:
+                    - generic [ref=f4e133]: P
+                    - generic [ref=f4e135]:
+                      - generic [ref=f4e136]: M
+                      - generic [ref=f4e138]:
+                        - generic [ref=f4e140]:
+                          - generic [ref=f4e141]: b
+                          - generic [ref=f4e142]: a
+                          - generic [ref=f4e143]: s
+                          - generic [ref=f4e144]: e
+                          - generic [ref=f4e145]: l
+                          - generic [ref=f4e146]: i
+                          - generic [ref=f4e147]: "n"
+                          - generic [ref=f4e148]: e
+                        - generic [ref=f4e150]:
+                          - generic [ref=f4e151]: "2"
+                          - generic [ref=f4e152]: .
+                          - generic [ref=f4e153]: "5"
+                  - math [ref=f4e155]:
+                    - generic [ref=f4e156]: P
+                    - generic [ref=f4e157]:
+                      - generic [ref=f4e158]: M
+                      - generic [ref=f4e159]: "2.5"
+                      - generic [ref=f4e161]: baseline
+              - cell "Baseline annual average concentration" [ref=f4e163]
+              - cell "µg/m³" [ref=f4e164]
+            - row [ref=f4e165]:
+              - cell [ref=f4e166]:
+                - generic [ref=f4e167]:
+                  - generic [ref=f4e168]:
+                    - generic [ref=f4e169]: P
+                    - generic [ref=f4e171]:
+                      - generic [ref=f4e172]: M
+                      - generic [ref=f4e174]:
+                        - generic [ref=f4e176]:
+                          - generic [ref=f4e177]: t
+                          - generic [ref=f4e178]: a
+                          - generic [ref=f4e179]: r
+                          - generic [ref=f4e180]: g
+                          - generic [ref=f4e181]: e
+                          - generic [ref=f4e182]: t
+                        - generic [ref=f4e184]:
+                          - generic [ref=f4e185]: "2"
+                          - generic [ref=f4e186]: .
+                          - generic [ref=f4e187]: "5"
+                  - math [ref=f4e189]:
+                    - generic [ref=f4e190]: P
+                    - generic [ref=f4e191]:
+                      - generic [ref=f4e192]: M
+                      - generic [ref=f4e193]: "2.5"
+                      - generic [ref=f4e195]: target
+              - cell "WHO guideline, national standard, or policy target" [ref=f4e197]
+              - cell "µg/m³" [ref=f4e198]
+            - row [ref=f4e199]:
+              - cell [ref=f4e200]:
+                - generic [ref=f4e201]:
+                  - generic [ref=f4e202]: β
+                  - math [ref=f4e206]:
+                    - generic [ref=f4e207]: β
+              - cell "Life-expectancy gain per 1 µg/m³ reduction" [ref=f4e208]
+              - cell "years per µg/m³" [ref=f4e209]
+            - row [ref=f4e210]:
+              - cell [ref=f4e211]:
+                - generic [ref=f4e212]:
+                  - generic [ref=f4e213]:
+                    - generic [ref=f4e214]: Δ
+                    - generic [ref=f4e216]: L
+                    - generic [ref=f4e218]: E
+                  - math [ref=f4e221]:
+                    - generic [ref=f4e222]: Δ
+                    - generic [ref=f4e223]: L
+                    - generic [ref=f4e224]: E
+              - cell "Estimated life-expectancy gain" [ref=f4e225]
+              - cell "years" [ref=f4e226]
+        - paragraph [ref=f4e227]:
+          - text: This site uses
+          - generic [ref=f4e228]:
+            - generic [ref=f4e229]:
+              - generic [ref=f4e230]: β
+              - generic [ref=f4e232]: =
+              - generic [ref=f4e234]:
+                - generic [ref=f4e235]: "0"
+                - generic [ref=f4e236]: .
+                - generic [ref=f4e237]: "0"
+                - generic [ref=f4e238]: "9"
+                - generic [ref=f4e239]: "8"
+            - math [ref=f4e241]:
+              - generic [ref=f4e242]: β
+              - generic [ref=f4e243]: =
+              - generic [ref=f4e244]: "0.098"
+          - text: and a WHO guideline of 5 µg/m³ throughout. Both are set once, in
+          - code [ref=f4e245]: _config.yml
+          - text: ", so a single edit propagates to every page rather than leaving stale numbers behind in prose."
+        - generic [ref=f4e246]:
+          - paragraph [ref=f4e247]:
+            - strong [ref=f4e248]: What the equation does not do
+          - paragraph [ref=f4e249]: It is linear. It assumes the relationship holds across the full range of concentrations, that exposure is sustained, and that the population is comparable to the one the coefficient was estimated on. Where a story leans on any of those assumptions harder than usual, the story has to say so.
+        - heading "Minimum reporting checklist" [level=2] [ref=f4e250]
+        - paragraph [ref=f4e251]: "Every post declares, in order:"
+        - list [ref=f4e252]:
+          - listitem [ref=f4e253]: Baseline year
+          - listitem [ref=f4e254]: Pollution target used (guideline, national standard, or policy commitment)
+          - listitem [ref=f4e255]: Geographic unit
+          - listitem [ref=f4e256]: Population-weighting method
+          - listitem [ref=f4e257]: PM₂.₅ data source
+          - listitem [ref=f4e258]: Life-expectancy coefficient
+          - listitem [ref=f4e259]: Uncertainty and caveats
+        - paragraph [ref=f4e260]: A post that cannot fill all seven is not finished. It is a draft with a headline.
+  - contentinfo [ref=f4e261]:
+    - generic [ref=f4e262]:
+      - generic [ref=f4e263]:
+        - link [ref=f4e264] [cursor=pointer]:
+          - /url: /aqli_blog_demo/
+          - generic [ref=f4e270]:
+            - strong [ref=f4e271]: AQLI Research Blog
+            - emphasis [ref=f4e272]: Research inferences from AQLI data
+        - paragraph [ref=f4e273]: Evidence-led reporting on particulate pollution, life expectancy, and clean-air policy from the Air Quality Life Index.
+        - paragraph [ref=f4e274]: Figures on this site are illustrative demonstration values, not published estimates.
+      - generic [ref=f4e275]:
+        - heading "Sections" [level=2] [ref=f4e276]
+        - link "Stories" [ref=f4e277] [cursor=pointer]:
+          - /url: /aqli_blog_demo/blog/
+        - link "Topics" [ref=f4e278] [cursor=pointer]:
+          - /url: /aqli_blog_demo/topics/
+        - link "Methods" [ref=f4e279] [cursor=pointer]:
+          - /url: /aqli_blog_demo/methods/
+        - link "Data" [ref=f4e280] [cursor=pointer]:
+          - /url: /aqli_blog_demo/data/
+      - generic [ref=f4e281]:
+        - heading "Contribute" [level=2] [ref=f4e282]
+        - link "Editorial guide" [ref=f4e283] [cursor=pointer]:
+          - /url: /aqli_blog_demo/write/
+        - link "Formatting reference" [ref=f4e284] [cursor=pointer]:
+          - /url: /aqli_blog_demo/formatting/
+        - link "Download the demo data" [ref=f4e285] [cursor=pointer]:
+          - /url: /aqli_blog_demo/assets/data/aqli_demo.csv
+        - link "RSS feed" [ref=f4e286] [cursor=pointer]:
+          - /url: /aqli_blog_demo/feed.xml
+    - generic [ref=f4e287]:
+      - generic [ref=f4e288]: 2026 AQLI
+      - generic [ref=f4e289]:
+        - text: "Published estimates:"
+        - link "aqli.epic.uchicago.edu" [ref=f4e290] [cursor=pointer]:
+          - /url: https://aqli.epic.uchicago.edu/
