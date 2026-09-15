@@ -11,7 +11,7 @@ governing rule:
 > Maroon, gold, blue and green are chrome. The exposure ramp (`--pm-0` … `--pm-6`) encodes
 > µg/m³ and appears only on data marks — the ruler and table swatches. They are never swapped.
 
-**Live site:** https://aqli-epic.github.io/aqli_blog_demo/
+**Live site:** https://aqli-epic.github.io/aqli_research_blog/
 
 ---
 
