@@ -26,8 +26,17 @@ burning hectare of savanna grass. This piece uses country-level GLOBFIRE burned-
 that divergence, and connects it to the AQLI's core concern: what all of this means for the air people
 breathe and the years it costs them.
 
-![Burned area by region, 2002 to 2024, log scale. Central and West Africa and Eastern and Southern Africa sit far above every other region and both decline. United States and Canada and South Asia are the only lines rising.]({{ '/assets/img/fire-regional-trends.gif' | relative_url }})
-*Central & West Africa and Eastern & Southern Africa dwarf every other region in raw hectares — and both are declining. United States & Canada and South Asia are the two regions moving the wrong way. Note the log scale: the gap is larger than it looks. Source: GLOBFIRE annual country-level burned area, 2002–2024; regions follow AQLI report groupings.*
+<p class="figure-title">Figure 1. Burned area by region, 2002 to 2024</p>
+
+<div class="content-figure">
+  <img src="{{ '/assets/img/fire-regional-trends.gif' | relative_url }}"
+       alt="Burned area by region, 2002 to 2024, log scale. Central and West Africa and Eastern and Southern Africa sit far above every other region and both decline. United States and Canada and South Asia are the only lines rising.">
+</div>
+
+Central & West Africa and Eastern & Southern Africa dwarf every other region in raw hectares — and both
+are declining. United States & Canada and South Asia are the two regions moving the wrong way. Note the
+log scale: the gap is larger than it looks. GLOBFIRE annual country-level burned area, 2002–2024;
+regions follow AQLI report groupings.
 
 ## About the data
 
@@ -67,8 +76,16 @@ deliberately for land clearing and pasture management, and it has been *declinin
 the same reasons Andela et al. identified: as farming intensifies and populations urbanize, the
 traditional burn-to-clear cycle recedes.
 
-![Animated ranking of the top 12 countries by annual burned area, 2002 to 2024. African savanna nations including Angola, the Democratic Republic of Congo and Zambia hold the top positions in almost every year, with Australia, Brazil and Kazakhstan appearing intermittently.]({{ '/assets/img/fire-top-countries-race.gif' | relative_url }})
-*The top 12 countries by annual burned area. The list is dominated, year after year, by the same African savanna and woodland nations — with occasional intrusions from Australia, Brazil, and Kazakhstan. Bar colour marks the region each country belongs to. Source: GLOBFIRE annual country-level burned area, 2002–2024.*
+<p class="figure-title">Figure 2. Top countries by annual burned area, 2002 to 2024</p>
+
+<div class="content-figure">
+  <img src="{{ '/assets/img/fire-top-countries-race.gif' | relative_url }}"
+       alt="Animated ranking of the top 12 countries by annual burned area, 2002 to 2024. African savanna nations including Angola, the Democratic Republic of Congo and Zambia hold the top positions in almost every year, with Australia, Brazil and Kazakhstan appearing intermittently.">
+</div>
+
+The top 12 countries by annual burned area. The list is dominated, year after year, by the same African
+savanna and woodland nations — with occasional intrusions from Australia, Brazil, and Kazakhstan. Bar
+colour marks the region each country belongs to. GLOBFIRE annual country-level burned area, 2002–2024.
 
 That single fact reframes the entire "wildfires are getting worse" narrative. When people picture
 rising wildfires, they are picturing something else entirely: temperate and boreal *forest* fire in
@@ -103,8 +120,17 @@ Only two regions in this dataset are unambiguously burning more hectares than th
 ago — and they are the two regions that combine forest ecosystems with large exposed populations:
 North America and South Asia.
 
-![Burned area for selected countries indexed so each country's 2002 to 2004 average equals 100. Canada and India trend above the baseline while Indonesia and Russia fall well below it. Syria's line leaves the top of the chart in 2019 and 2020, marked with triangles carrying its true index values.]({{ '/assets/img/fire-indexed-trajectories.gif' | relative_url }})
-*Burned area indexed to each country's 2002–04 average (=100). Canada and India trend upward against falling trajectories in Indonesia and Russia. Syria's 2019–20 spike is so large — index values of 2,390 and 1,104 — that it leaves the chart; the ▲ markers carry its true value. That spike is not fire weather. See below. Source: GLOBFIRE, 2002–2024; index base is the mean of 2002, 2003 and 2004.*
+<p class="figure-title">Figure 3. Burned area indexed to each country’s 2002–04 average</p>
+
+<div class="content-figure">
+  <img src="{{ '/assets/img/fire-indexed-trajectories.gif' | relative_url }}"
+       alt="Burned area for selected countries indexed so each country's 2002 to 2004 average equals 100. Canada and India trend above the baseline while Indonesia and Russia fall well below it. Syria's line leaves the top of the chart in 2019 and 2020, marked with triangles carrying its true index values.">
+</div>
+
+Burned area indexed to each country's 2002–04 average (=100). Canada and India trend upward against
+falling trajectories in Indonesia and Russia. Syria's 2019–20 spike is so large — index values of 2,390
+and 1,104 — that it leaves the chart; the ▲ markers carry its true value. That spike is not fire
+weather. See below. GLOBFIRE, 2002–2024; index base is the mean of 2002, 2003 and 2004.
 
 ## Country deep dives
 
