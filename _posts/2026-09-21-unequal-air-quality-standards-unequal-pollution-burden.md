@@ -11,16 +11,16 @@ featured: true
 National air quality standards are one of the clearest signals governments can send about the level
 of pollution they consider acceptable. Yet the global regulatory landscape for fine particulate matter
 (PM₂.₅) remains highly uneven. Across the 252 countries and territories covered by this analysis, only
-96 have adopted a national annual PM2.5 standard (Figure 1). Those jurisdictions account for approximately
+96 have adopted a national annual PM₂.₅ standard (Figure 1). Those jurisdictions account for approximately
 81.9 percent of the global population covered by the analysis, underscoring that the global challenge
 is not only whether a standard exists, but how protective that standard is and whether countries can
 actually attain it.
 
 The 2021 World Health Organization (WHO) air quality guidelines provide a useful benchmark. WHO
-recommends an annual PM2.5 concentration of {{ site.who_guideline }} µg/m³ and sets interim targets
+recommends an annual PM₂.₅ concentration of {{ site.who_guideline }} µg/m³ and sets interim targets
 of 35, 25, 15, and 10 µg/m³ to support stepwise progress toward that guideline (WHO, 2021). When
 national standards are placed against this ladder, a striking pattern emerges: much of the world
-technically lives under PM2.5 regulation, but a large share of that regulation remains substantially
+technically lives under PM₂.₅ regulation, but a large share of that regulation remains substantially
 less protective than WHO health-based benchmarks.
 
 *This analysis represents our first-cut analysis. Have critical comments or suggestions? Please email
@@ -53,7 +53,7 @@ territory with a national annual PM2.5 standard, while about 18.1 percent does n
 regulatory gap is therefore better described as two related problems: a large number of jurisdictions
 still lack standards, and many of the standards that do exist remain weak relative to WHO guidance.
 
-<p class="figure-title">Figure 2. Countries without a national annual PM2.5 standard, by continent</p>
+<p class="figure-title">Figure 2. Countries without a national annual PM₂.₅ standard, by continent</p>
 
 <div class="content-figure">
   <img src="{{ '/assets/img/countries-without-pm25-standard-by-continent.png' | relative_url }}"
@@ -67,7 +67,7 @@ The WHO framework is explicitly designed as a progression: 35 µg/m³ (Interim T
 matters because simply classifying countries as “regulated” or “unregulated” hides enormous variation
 in the level of protection implied by national standards.
 
-Among people living in countries that have an annual PM2.5 standard, approximately 78.1 percent live
+Among people living in countries that have an annual PM₂.₅ standard, approximately 78.1 percent live
 in jurisdictions where the standard is 15 µg/m³ or higher. That is roughly 64 percent of the global
 population covered by the analysis (Figure 3). A standard of 35 µg/m³, for example, permits an annual
 concentration seven times the WHO guideline; a standard of 40 µg/m³ permits eight times the
@@ -77,31 +77,31 @@ The global landscape is therefore better understood as a continuum of regulatory
 standard, standards aligned with the least stringent WHO interim targets, progressively stronger
 standards, and finally standards approaching the WHO guideline.
 
-<p class="figure-title">Figure 3. Population living under different PM2.5 standard categories</p>
+<p class="figure-title">Figure 3. Population living under different PM₂.₅ standard categories</p>
 
 <div class="content-figure">
   <img src="{{ '/assets/img/population-by-pm25-standard-category.png' | relative_url }}"
        alt="Stacked horizontal bar showing 81.9% of global population under a national PM2.5 standard, broken into bands from no standard through WHO interim target levels.">
 </div>
 
-Although most jurisdictions lack a national annual PM2.5 standard, most of the global population
+Although most jurisdictions lack a national annual PM₂.₅ standard, most of the global population
 lives in countries that do have one. However, much of that population remains covered by standards
 that are weak relative to WHO interim targets.
 
 ## 3. Weaker regulatory ambition coincides with higher pollution and larger longevity losses
 
 The policy relevance of these differences becomes clearer when national standards are compared with
-actual pollution exposure. AQLI combines satellite-derived annual PM2.5 estimates with population
+actual pollution exposure. AQLI combines satellite-derived annual PM₂.₅ estimates with population
 data to characterize the concentrations experienced by people rather than averaging pollution
 uniformly across land area.
 
-According to AQLI’s 2024 satellite-derived, population-weighted PM2.5 estimates, countries with
+According to AQLI’s 2024 satellite-derived, population-weighted PM₂.₅ estimates, countries with
 national standards below 15 µg/m³ had an average population-weighted concentration of approximately
 12.5 µg/m³. Across countries with standards of 15 µg/m³ or higher, together with countries lacking a
 national standard, the corresponding concentration was approximately 29.0 µg/m³.
 
 AQLI translates sustained particulate pollution exposure into its effect on life expectancy. Based
-on the Huai River research underlying the Index, a sustained increase of 10 µg/m³ in PM2.5 is
+on the Huai River research underlying the Index, a sustained increase of 10 µg/m³ in PM₂.₅ is
 associated with approximately {{ 10 | times: site.aqli_coefficient | round: 2 }} years of reduced life
 expectancy (Chen et al., 2013; Ebenstein et al., 2017). Applying this relationship to 2024 exposure
 shows a similarly large gap across regulatory groups: populations in countries with standards below
@@ -113,7 +113,7 @@ national standard.
 
 <div class="content-figure">
   <img src="{{ '/assets/img/life-expectancy-loss-by-regulatory-category.png' | relative_url }}"
-       alt="Lollipop chart linking national PM2.5 standard categories to population-weighted mean life expectancy loss relative to the WHO guideline, with population share for each category.">
+       alt="Lollipop chart linking national PM₂.₅ standard categories to population-weighted mean life expectancy loss relative to the WHO guideline, with population share for each category.">
 </div>
 
 This difference should not be interpreted as the causal effect of adopting a stricter standard.
@@ -201,9 +201,9 @@ standards. It’s a dynamic tracker and we encourage readers to look at it and h
 values updated. You can find the details
 [here](https://www.linkedin.com/feed/update/urn:li:activity:7454512654582398976/). This analysis
 combines national annual PM₂.₅ standards with AQLI’s 2024 satellite-derived, population-weighted
-annual PM2.5 estimates. It covers 252 countries and territories, of which 96 have a recorded national
+annual PM₂.₅ estimates. It covers 252 countries and territories, of which 96 have a recorded national
 annual PM₂.₅ standard. Life-expectancy impacts are interpreted using the relationship in which a
-sustained 10 µg/m³ increase in PM2.5 corresponds to approximately
+sustained 10 µg/m³ increase in PM₂.₅ corresponds to approximately
 {{ 10 | times: site.aqli_coefficient | round: 2 }} years of reduced life expectancy. Comparisons
 across regulatory categories are descriptive and should not be interpreted as causal estimates of
 the effect of regulation.
