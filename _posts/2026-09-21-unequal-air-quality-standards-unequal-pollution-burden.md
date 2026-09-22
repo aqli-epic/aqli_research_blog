@@ -8,6 +8,10 @@ reading_time: 10
 featured: true
 ---
 
+*This analysis represents our first-cut analysis. Have critical comments or suggestions? Please email
+us at [guptap@uchicago.edu](mailto:guptap@uchicago.edu) /
+[hcgautam@uchicago.edu](mailto:hcgautam@uchicago.edu).*
+
 National air quality standards are one of the clearest signals governments can send about the level
 of pollution they consider acceptable. Yet the global regulatory landscape for fine particulate matter
 (PM₂.₅) remains highly uneven. Across the 252 countries and territories covered by this analysis, only
@@ -22,10 +26,6 @@ of 35, 25, 15, and 10 µg/m³ to support stepwise progress toward that guideline
 national standards are placed against this ladder, a striking pattern emerges: much of the world
 technically lives under PM₂.₅ regulation, but a large share of that regulation remains substantially
 less protective than WHO health-based benchmarks.
-
-*This analysis represents our first-cut analysis. Have critical comments or suggestions? Please email
-us at [guptap@uchicago.edu](mailto:guptap@uchicago.edu) /
-[hcgautam@uchicago.edu](mailto:hcgautam@uchicago.edu).*
 
 <p class="figure-title">Figure 1. Global map of national annual PM2.5 standards</p>
 
