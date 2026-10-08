@@ -28,6 +28,7 @@ footnotes to be hidden at the bottom of a post. They are the post.
 
 <ul class="staff">
   <li><b>Christa HasenKopf</b> <span>Director, Clean Air Program, EPIC</span></li>
+  <li><b>Calvin Arter</b> <span>Director, AQLI</span></li>
   <li><b>Hrishikesh Chandra Gautam</b> <span>Data Specialist, AQLI</span></li>
   <li><b>Purushottam Gupta</b> <span>Data Analyst, AQLI</span></li>
 </ul>
