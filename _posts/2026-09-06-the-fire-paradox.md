@@ -1,7 +1,7 @@
 ---
 title: "Global forest and agricultural fires have reduced remarkably but not where it matters the most"
 section: "Exposure"
-author: "Hrishikesh Chandra Gautam and Purushottam Gupta"
+author: "Hrishikesh Chandra Gautam, Purushottam Gupta and Calvin Arter"
 standfirst: "Global burnt area has fallen since 2002, but South Asia and North America did not follow that trend — including an estimated 41% rise in India — in regions where forest cover overlaps dense populations and particulate exposure matters most."
 tags: [global, india, data, pm2.5]
 reading_time: 6
