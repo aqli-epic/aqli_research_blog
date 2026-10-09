@@ -1,7 +1,7 @@
 ---
 title: "Unequal Air Quality Standards, Unequal Pollution Burdens"
 section: "Policy"
-author: "Purushottam Gupta and Hrishikesh Chandra Gautam"
+author: "Purushottam Gupta, Hrishikesh Chandra Gautam and Calvin Arter"
 standfirst: "Across 252 countries and territories, only 96 have a national annual PM₂.₅ standard — yet 81.9% of the covered population lives under one. Most of that regulation remains far less protective than WHO guidance, and weaker ambition tracks higher pollution and larger longevity losses."
 tags: [policy, global, pm2.5, life-expectancy]
 reading_time: 10
