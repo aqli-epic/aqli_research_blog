@@ -13,8 +13,7 @@ description: "Air pollution, translated into years of life. The Air Quality Life
       <p class="eyebrow">The Air Quality Life Index</p>
       <h1>Air pollution, translated into years of life.</h1>
       <p class="hero__lede">
-        Particulate pollution is the largest external risk to human health, and it is almost
-        entirely invisible. This blog shares first-cut analyses by the AQLI Team, where we "think in public" to understand and communicate it better.
+        PM<sub>2.5</sub> pollution is the greatest external threat to human health, and it is mostly invisible. This blog shares first-cut analyses from the AQLI Team, our way of thinking in public to understand this threat and explain it better.
       </p>
       <div class="hero__actions" aria-label="Primary actions">
         <a class="button button--primary" href="{{ '/blog/' | relative_url }}">Read the stories</a>
