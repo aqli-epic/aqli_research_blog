@@ -6,10 +6,7 @@ permalink: /about/
 standfirst: "Who writes this, who it is for, and the one editorial rule that governs it."
 ---
 
-The **Air Quality Life Index** blog translates air pollution data into stories that a person can
-act on. Maps, trends, explainers, and policy notes: what particulate pollution does to life
-expectancy, why clean air is a policy choice rather than a weather outcome, and what better
-policies would actually buy.
+The **Air Quality Life Index** blog turns air pollution data into stories people can act on. Maps, trends, explainers, and policy notes reveal what PM<sub>2.5</sub> costs in years of life, why clean air is a policy choice, and what stronger policies can do to protect human health. 
 
 ## The editorial rule
 
