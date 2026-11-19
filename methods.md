@@ -7,9 +7,7 @@ standfirst: "The equation, the coefficient, and the seven things every post has 
 math: true
 ---
 
-AQLI-style communication connects long-term particulate exposure to life expectancy through a
-single linear translation. It is deliberately simple, which is its strength as a communication
-device and its weakness as a model. Both are worth saying out loud.
+AQLI-style communication links long-term PM<sub>2.5</sub> exposure to life expectancy through one clear, linear relationship. This simplicity is deliberate: it makes the results easy to understand, compare, and check.
 
 ## The calculation
 
@@ -31,22 +29,19 @@ propagates to every page rather than leaving stale numbers behind in prose.
 <div class="note" markdown="1">
 **What the equation does not do**
 
-It is linear. It assumes the relationship holds across the full range of concentrations, that
-exposure is sustained, and that the population is comparable to the one the coefficient was
-estimated on. Where a story leans on any of those assumptions harder than usual, the story has
-to say so.
+The equation is linear. It assumes the effect is the same at every concentration, that exposure is sustained, and that the population is comparable to the one the coefficient was estimated on. If a story leans heavily on any of these assumptions, it should say so.
 </div>
 
 ## Minimum reporting checklist
 
-Every post declares, in order:
+Every post must state its:
 
 1. Baseline year
-2. Pollution target used (guideline, national standard, or policy commitment)
-3. Geographic unit
+2. Pollution target (WHO guideline, national standard, or policy commitment)
+3. Geographic unit (such as district, state, or country)
 4. Population-weighting method
-5. PM₂.₅ data source
-6. Life-expectancy coefficient
+5. PM<sub>2.5</sub> data source
+6. Life expectancy coefficient
 7. Uncertainty and caveats
 
-A post that cannot fill all seven is not finished. It is a draft with a headline.
+A post that is missing any of these is a draft, not a finished piece.
