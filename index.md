@@ -45,15 +45,15 @@ description: "Air pollution, translated into years of life. The Air Quality Life
     <div class="signal-strip" aria-label="What this blog publishes">
       <div>
         <strong>Exposure</strong>
-        <span>Long-term PM<sub>2.5</sub> for real places — districts, states, airsheds, countries — and who sits under it.</span>
+        <span>Who breathes what. Long-term PM<sub>2.5</sub> districts, states, airsheds, and countries, and the people who live in them.</span>
       </div>
       <div>
         <strong>Policy</strong>
-        <span>Guidelines and national standards read closely. A target is only as good as the years it buys.</span>
+        <span>What standards deliver. We read guidelines and national standards closely, because a target is only as good as the years of life it delivers.</span>
       </div>
       <div>
         <strong>Method</strong>
-        <span>Weighting, baselines, coefficients, uncertainty. Every figure here is meant to be checked, not trusted.</span>
+        <span>How we get our numbers. Weighting, baselines, coefficients, and uncertainty. Every figure here is meant to be checked and reproduced.</span>
       </div>
     </div>
   </section>
