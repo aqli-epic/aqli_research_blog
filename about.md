@@ -10,16 +10,11 @@ The **Air Quality Life Index** blog turns air pollution data into stories people
 
 ## The editorial rule
 
-Be technically credible, readable, and honest about uncertainty. Assumptions are not
-footnotes to be hidden at the bottom of a post. They are the post.
+Blog post authors should write posts that are accurate, easy to read, and honest about uncertainty. State your assumptions openly in the post, not in a footnote.
 
 ## Who it is for
 
-- Policy professionals and regulators
-- Researchers and data scientists working on air quality and health impacts
-- Journalists working on data pieces concerning air pollution
-- Students and public-health communicators
-- Anyone who wants to know what the air where they live is costing them in terms of life years
+This blog is for you if you shape or enforce air quality policy, study air pollution and health, report on air pollution, teach or communicate public health, or simply want to know what the air where you live is costing you in years of life.
 
 ## Who writes it
 
