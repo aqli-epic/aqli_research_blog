@@ -45,7 +45,7 @@ description: "Air pollution, translated into years of life. The Air Quality Life
     <div class="signal-strip" aria-label="What this blog publishes">
       <div>
         <strong>Exposure</strong>
-        <span>Who breathes what. Long-term PM<sub>2.5</sub> districts, states, airsheds, and countries, and the people who live in them.</span>
+        <span>Who breathes what. Long-term PM<sub>2.5</sub> for districts, states, airsheds, and countries, and the people who live in them.</span>
       </div>
       <div>
         <strong>Policy</strong>
